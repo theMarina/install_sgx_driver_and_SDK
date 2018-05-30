@@ -16,6 +16,9 @@ make psw_install_pkg
 
 cd linux/installer/bin/
 sudo ./sgx_linux_x64_psw_*.bin
-sudo ./sgx_linux_x64_sdk_*.bin 
+sudo ./sgx_linux_x64_sdk_*.bin << EOF
+no
+/opt/intel
+EOF
 
 echo "SGX SDK succesfully installed!"
