@@ -7,8 +7,8 @@ sudo apt-get install libssl-dev libcurl4-openssl-dev protobuf-compiler libprotob
 sudo apt-get install build-essential python
 sudo apt-get install libssl-dev libcurl4-openssl-dev libprotobuf-dev
 sudo apt-get install alien
-sudo alien --scripts iclsClient-1.45.449.12-1.x86_64.rpm
-sudo dpkg -i iclsclient_1.45.449.12-2_amd64.deb
+#sudo alien --scripts iclsClient-1.45.449.12-1.x86_64.rpm
+#sudo dpkg -i iclsclient_1.45.449.12-2_amd64.deb
 sudo apt-get install uuid-dev libxml2-dev cmake pkg-config
 
 make sdk_install_pkg
